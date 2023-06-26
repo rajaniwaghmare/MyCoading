@@ -3,7 +3,7 @@ import configparser
 config = configparser.RawConfigParser()
 
 
-config.read("D:\\Credence Python Projects by Tushar Sir\\Automation_Credkart\\Configuration\\Config.ini")
+config.read("D:\\data\\credence_class\\git download\\Git Test\\Configuration\\Config.ini")
 
 class ReadConfig():
 

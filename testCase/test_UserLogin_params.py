@@ -32,12 +32,12 @@ class Test_Login:
         if self.rp.Status() == True:
             self.log.info("Testcases test_login_params_003 is passed")
             self.driver.save_screenshot(
-                "D:\\data\\credence_class\\TusharSir_Automation\\RajaniAutomation\\Screenshots\\test_login_params_003_pass.png")
+                "D:\\data\\credence_class\\git download\\Git Test\\Screenshots\\test_login_params_003_pass.png")
             assert True
         else:
             self.log.info("Testcases test_login_params_003 is failed")
             self.driver.save_screenshot(
-                "D:\\data\\credence_class\\TusharSir_Automation\\RajaniAutomation\\Screenshots\\test_login_params_003_fail.png")
+                "D:\\data\\credence_class\\git download\\Git Test\\Screenshots\test_login_params_003_fail.png")
             assert False
         self.driver.close()
         self.log.info("Testcases test_login_params_003 is completed")
